@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutMode="opticalBounds"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="@drawable/image"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to Scanner App"
+        android:textColor="#F8F6F6"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="450dp"
+        android:text="SCAN "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_search"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        android:backgroundTint="@color/blue"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue"
+        android:backgroundTintMode="add"
+        android:text="SAVED"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_save"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/blue"
+        android:text="GENERATE CODE"
+        android:textSize="20sp"
+        app:icon="@android:drawable/ic_menu_manage"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
