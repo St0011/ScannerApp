@@ -1,7 +1,9 @@
 # ScannerApp
 
+
 In this application the user can scan a qr code and generate a new one. 
 They  can also see all the saved qr codes in link form . All the data save on firebase
+
 
 
 **HOW TO RUN THE APP ON YOUR PC
