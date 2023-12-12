@@ -1,8 +1,10 @@
 # ScannerApp
 
 
-In this application the user can scan a qr code and generate a new one. 
-They  can also see all the saved qr codes in link form . All the data save on firebase.
+This Android application offers the functionality to both scan existing QR codes and generate new ones effortlessly. 
+Users can not only create new QR codes but also access a comprehensive list of all saved codes in link form, enhancing convenience and organization. 
+The application ensures secure data storage on Firebase, providing a reliable repository for all QR code-related information.  
+Key Technologies: Android Studio, Firebase, Java
 
 
 
