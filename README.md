@@ -8,14 +8,6 @@ Key Technologies: Android Studio, Firebase, Java
 
 
 
-**HOW TO RUN THE APP 
-
-1)Download the Zip File
-
-2)Open Android Studio 
-
-3)Run the app on Physical or Virtual device
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **NAVIGATION 
